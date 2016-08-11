@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="SorroundTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="75.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xT7-a5-ERt">
+                        <rect key="frame" x="42" y="13" width="246" height="20.5"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STq-AA-HOh">
+                        <rect key="frame" x="42" y="41.5" width="246" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7H-yD-Ibb">
+                        <rect key="frame" x="318" y="5" width="31" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_btn_default" translatesAutoresizingMaskIntoConstraints="NO" id="eFj-JW-ln5">
+                        <rect key="frame" x="296" y="37" width="30" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="CuL-eD-HI8"/>
+                            <constraint firstAttribute="height" constant="30" id="Igk-On-qif"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ic_search_map" translatesAutoresizingMaskIntoConstraints="NO" id="Rd2-KO-uqH">
+                        <rect key="frame" x="296" y="5" width="20" height="20"/>
+                        <animations/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbc-dK-2X1">
+                        <rect key="frame" x="6" y="6" width="34" height="34"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="Y7H-yD-Ibb" firstAttribute="leading" secondItem="Rd2-KO-uqH" secondAttribute="trailing" constant="2" id="6CX-Fn-ErW"/>
+                    <constraint firstItem="Y7H-yD-Ibb" firstAttribute="top" secondItem="Rd2-KO-uqH" secondAttribute="top" id="9qQ-2Q-7QU"/>
+                    <constraint firstItem="xT7-a5-ERt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="34" id="9x5-Gz-s87"/>
+                    <constraint firstItem="STq-AA-HOh" firstAttribute="leading" secondItem="xT7-a5-ERt" secondAttribute="leading" id="V48-xz-bKE"/>
+                    <constraint firstItem="eFj-JW-ln5" firstAttribute="leading" secondItem="Rd2-KO-uqH" secondAttribute="leading" id="WAW-3f-nAb"/>
+                    <constraint firstItem="Rd2-KO-uqH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="YdK-CC-U7K"/>
+                    <constraint firstItem="Rd2-KO-uqH" firstAttribute="leading" secondItem="xT7-a5-ERt" secondAttribute="trailing" constant="8" id="f3J-fd-HJx"/>
+                    <constraint firstItem="STq-AA-HOh" firstAttribute="width" secondItem="xT7-a5-ERt" secondAttribute="width" id="fzs-Hc-3YY"/>
+                    <constraint firstItem="STq-AA-HOh" firstAttribute="top" secondItem="xT7-a5-ERt" secondAttribute="bottom" constant="8" id="kzP-Zm-dV4"/>
+                    <constraint firstItem="xT7-a5-ERt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="wbP-vH-bPg"/>
+                    <constraint firstItem="eFj-JW-ln5" firstAttribute="top" secondItem="Rd2-KO-uqH" secondAttribute="bottom" constant="12" id="xJu-6P-F4j"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xT7-a5-ERt" secondAttribute="trailing" constant="61" id="xLU-nc-WTl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="addrLabel" destination="STq-AA-HOh" id="ME6-kn-rRc"/>
+                <outlet property="deptNameLabel" destination="xT7-a5-ERt" id="iPK-3l-hWf"/>
+                <outlet property="letterLabel" destination="Jbc-dK-2X1" id="nJC-Dq-NCV"/>
+                <outlet property="phoneImageV" destination="eFj-JW-ln5" id="DAU-Du-Or3"/>
+                <outlet property="snCodeLabel" destination="Y7H-yD-Ibb" id="UXE-3W-dJY"/>
+            </connections>
+            <point key="canvasLocation" x="218.5" y="214"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_search_map" width="16" height="20"/>
+        <image name="phone_btn_default" width="24" height="24"/>
+    </resources>
+</document>
